@@ -42,7 +42,7 @@ body {
     right: 0;
     height: 100%;
     width: 100%;
-    background: red;
+    background: yellowgreen;
     animation: showRight 1s ease forwards;
     animation-delay: .2s;
 
