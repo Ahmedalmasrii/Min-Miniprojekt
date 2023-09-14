@@ -139,8 +139,8 @@ body {
  .homehover {
     position: absolute;
     top: 0;
-    right: 30px;
-    width: 670px;
+    right: 22px;
+    width: 320px;
     height: 100%;
     background: transparent;
     transition: 3s;
