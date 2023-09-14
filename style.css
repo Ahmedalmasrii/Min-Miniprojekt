@@ -61,7 +61,7 @@ body {
 
 .navbar a:hover,
 .navbar a.active{
-    color: rgb(0, 255, 55);
+    color: yellowgreen;
 }
 
 .home {
