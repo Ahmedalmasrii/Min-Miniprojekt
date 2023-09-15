@@ -110,8 +110,8 @@ body {
 
 
 }
-.button a{ /*den targetar bara [a] */
-    display: inline-flex;  /*Den anpassar design så att den bara påverkar sig själv och samma rad*/
+.button a{ 
+    display: inline-flex; 
     justify-content: center;
     align-items: center;
     width: 150px;
@@ -142,7 +142,7 @@ body {
     width: 0;
     height: 100%;
     background: yellowgreen;
-    z-index: -1; /*Man skriver in Z-index för att besämma placeringen på  tex färgen*/
+    z-index: -1;
     transition: .5s;
 
  }
