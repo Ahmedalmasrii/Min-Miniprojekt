@@ -72,8 +72,24 @@ body {
     padding: 0 10%;
     z-index: 1;
 }
+.home::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    background-image: url(Images/ferrari.png);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+
+}
+
+
 .homecontent {
-    max-width: 600px;     /* Man skriver in detta för att se till att texten inte sträcker sig ut på hela skärmen*/
+    max-width: 600px;     
 
 }
 .homecontent h1 {
@@ -86,7 +102,7 @@ body {
     margin: 20px 0 40px;
 
 }
-.homecontent .button {   /*vi anropar en class i en class, för att vi vill bara påverka denna class*/
+.homecontent .button {  
     display: flex;
     justify-content: space-between;
     width: 350px;
