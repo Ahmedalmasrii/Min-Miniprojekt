@@ -173,6 +173,19 @@ body {
     align-items: center;
     position: relative;
  }
+ .parallax-section2 {
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Images/ferrari.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ }
+ 
 
 
  
