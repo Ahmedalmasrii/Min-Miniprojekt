@@ -202,11 +202,20 @@ body {
     background:rgb(0, 0, 0 , 0, 4);
     z-index: 1;
 }
-
-
-
-
- 
+ .Next-level {
+    background: #111312;
+    padding: 50px 10%;
+    text-align: center;
+ }
+ .Next-level h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: yellowgreen;
+ }
+ .Next-level p {
+    font-size: 18px;
+    line-height: 1,6;
+ }
 
  @keyframes showRight {
     100% {
