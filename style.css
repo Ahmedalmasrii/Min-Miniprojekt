@@ -8,10 +8,9 @@
 body {
    background: black;
    color: white;
-   
 }
 
-.header{
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -45,8 +44,6 @@ body {
     background: yellowgreen;
     animation: showRight 1s ease forwards;
     animation-delay: .2s;
-
-
 }
 
 .navbar a {
@@ -56,7 +53,6 @@ body {
     font-weight: 600;
     margin-left: 60px;
     transition: .3s;
-    
 }
 
 .navbar a:hover,
@@ -72,6 +68,7 @@ body {
     padding: 0 10%;
     z-index: 1;
 }
+
 .home::before {
     content: "";
     position: absolute;
@@ -80,37 +77,36 @@ body {
     bottom: 0;
     top: 0;
     height: 100%;
-    background-image: url(Images/ferrari.png);
+    background-image: url('images/ferrari.png');
     background-size: cover;
     background-position: center;
     z-index: -1;
-
 }
-
 
 .homecontent {
-    max-width: 600px;     
-
+    max-width: 600px;
 }
+
 .homecontent h1 {
     font-size: 60px;
     font-weight: 750;
     color: chartreuse;
 }
+
 .homecontent p {
     font-size: 16px;
     margin: 20px 0 40px;
 
 }
+
 .homecontent .button {  
     display: flex;
     justify-content: space-between;
     width: 350px;
     height: 50px;
-
-
 }
-.button a{ 
+
+.button a { 
     display: inline-flex; 
     justify-content: center;
     align-items: center;
@@ -125,9 +121,7 @@ body {
     font-weight: 600;
     letter-spacing: 1px;  
     z-index: 1;
-
 }
-
 
 .button a:nth-child(2) {
     background: transparent;
@@ -139,11 +133,10 @@ body {
     color: white;
 }
 
-
- .button a:hover::before {
+.button a:hover::before {
     width: 100%;
- }
- 
+}
+
  .why-us {
     background-color: #111312;
     padding: 50px 10%;
@@ -173,6 +166,7 @@ body {
     align-items: center;
     position: relative;
  }
+
  .parallax-section2 {
     height: 500px;
     background-attachment: fixed;
@@ -185,6 +179,7 @@ body {
     align-items: center;
     position: relative;
  }
+
  .parallax-content h2 {
     color: yellowgreen;
     font-size: 50px;
@@ -202,16 +197,19 @@ body {
     background:rgb(0, 0, 0 , 0, 4);
     z-index: 1;
 }
+
  .Next-level {
     background: #111312;
     padding: 50px 10%;
     text-align: center;
  }
+
  .Next-level h2 {
     font-size: 40px;
     margin-bottom: 20px;
     color: yellowgreen;
  }
+ 
  .Next-level p {
     font-size: 18px;
     line-height: 1,6;
