@@ -134,6 +134,10 @@ body {
     color: white;
 }
 
+.button a:nth-child(2) .home::before {
+    background: transparent;
+    color: white;
+}
 
 .button a::before {
     content: '';
